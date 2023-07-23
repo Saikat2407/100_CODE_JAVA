@@ -8,7 +8,6 @@ public class SumInGivenRange {
     }
 
     static int rangesolver(int sum, int i, int b){
-//        i = 10;
         if(i > b){
             return sum;
         }else{
