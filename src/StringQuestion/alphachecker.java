@@ -1,3 +1,5 @@
+package StringQuestion;
+
 public class alphachecker {
 
     public static void main(String[] args) {
