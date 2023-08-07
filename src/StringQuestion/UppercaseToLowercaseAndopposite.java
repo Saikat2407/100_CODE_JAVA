@@ -16,6 +16,5 @@ public class UppercaseToLowercaseAndopposite {
             }else s.append(Character.toUpperCase(S1.charAt(i)));
         }
         System.out.println(s);
-
     }
 }
