@@ -1,3 +1,5 @@
+package Array;
+
 public class linearsearch {
     public static void main(String[] args) {
         int arr[] = inputarray.input();

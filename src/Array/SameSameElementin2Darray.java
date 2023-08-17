@@ -1,3 +1,5 @@
+package Array;
+
 public class SameSameElementin2Darray {
     public static void main(String[] args) {
         int[][] arr = {

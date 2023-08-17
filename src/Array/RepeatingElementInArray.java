@@ -1,3 +1,5 @@
+package Array;
+
 public class RepeatingElementInArray {
     public static void main(String[] args) {
         int[] arr = {1, 1, 3, 2, 3, 2};

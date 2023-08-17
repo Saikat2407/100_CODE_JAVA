@@ -1,3 +1,5 @@
+package Array;
+
 public class evenANDoddelement {
     public static void main(String[] args) {
         int[] arr1 = {100, 205, 300, 900, 1000, 1230};

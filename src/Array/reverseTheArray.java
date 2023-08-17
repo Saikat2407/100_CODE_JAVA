@@ -1,6 +1,8 @@
+package Array;
+
+import Array.inputarray;
+
 import java.util.Arrays;
-import java.util.*;
-import static java.util.Collections.swap;
 
 public class reverseTheArray {
 

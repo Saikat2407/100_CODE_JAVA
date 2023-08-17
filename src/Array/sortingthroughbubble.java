@@ -1,3 +1,5 @@
+package Array;
+
 public class sortingthroughbubble {
     public static void main(String[] args) {
         int[] arr = {3, 2, 4, 1, 10, 30, 40, 20};

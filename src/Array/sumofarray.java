@@ -1,9 +1,11 @@
-import java.util.Scanner;
+package Array;
+
+import Array.inputarray;
 
 public class sumofarray {
     public static void main(String[] args) {
 
-//        System.out.println(adder(inputarray.input(add),0,inputarray.input().length-1));
+//        System.out.println(adder(Array.inputarray.input(add),0,Array.inputarray.input().length-1));
         int[] t = inputarray.input();
         int last = inputarray.input().length;
 
