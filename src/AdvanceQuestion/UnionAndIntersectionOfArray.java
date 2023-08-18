@@ -39,8 +39,8 @@ public class UnionAndIntersectionOfArray {
 //        }
 //    }
     public static void main(String[] args) {
-        int[] arr1 = {0, 1, 2, 4};
-        int[] arr2 = {1, 3, 4, 5};
+        int[] arr1 = { 2 ,5, 1 , 9};
+        int[] arr2 = {4, 3, 1, 5, 9};
 //        union(arr1,arr2);
 
 
@@ -63,6 +63,24 @@ public class UnionAndIntersectionOfArray {
         }
 //        System.out.println(set);
         System.out.println(Arrays.toString(union));
+        Intersection(arr1,arr2);
+        System.out.println();
 
+    }
+    public
+    static void Intersection(int[] arr1, int[] arr2) {
+        int i = 0;
+        int j = 0;
+        while (i < arr1.length && j < arr2.length) {
+            if (arr1[i] < arr2[j]) {
+                i++;
+            } else if (arr1[i] > arr2[j]) {
+                j++;
+            } else {
+                System.out.print(arr1[i] + " ");
+                i++;
+                j++;
+            }
+        }
     }
 }
