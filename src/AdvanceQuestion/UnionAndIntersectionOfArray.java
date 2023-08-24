@@ -39,7 +39,7 @@ public class UnionAndIntersectionOfArray {
 //        }
 //    }
     public static void main(String[] args) {
-        int[] arr1 = { 2 ,5, 1 , 9};
+        int[] arr1 = { 2 ,5, 1 , 9, 8};
         int[] arr2 = {4, 3, 1, 5, 9};
 //        union(arr1,arr2);
 
