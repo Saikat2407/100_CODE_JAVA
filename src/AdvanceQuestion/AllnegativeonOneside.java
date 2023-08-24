@@ -10,8 +10,7 @@ public class AllnegativeonOneside {
             System.out.print(arr[i] + " ");
         }
     }
-
-    static void shiftall(int[] arr, int left, int right){
+    public static void shiftall(int[] arr, int left, int right){
 
         while (left <= right)
         {
@@ -35,7 +34,6 @@ public class AllnegativeonOneside {
             }
         }
     }
-
     public static void swap(int[] arr, int i, int j){
         int temp = arr[i];
         arr[i] = arr[j];

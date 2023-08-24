@@ -61,7 +61,7 @@ public class UnionAndIntersectionOfArray {
              ) {
             union[i++] = ans;
         }
-//        System.out.println(set);
+        System.out.println(set);
         System.out.println(Arrays.toString(union));
         Intersection(arr1,arr2);
         System.out.println();

@@ -2,7 +2,7 @@ package AdvanceQuestion;
 
 public class contigousSumInArray {
     public static void main(String[] args) {
-        int[] arr = new int[]{4, -1, -2, 1, 5};
+        int[] arr = new int[]{-2, -3, 4, -1, -3};
         int ans = SubArraySum(arr);
         System.out.println(ans);
     }
