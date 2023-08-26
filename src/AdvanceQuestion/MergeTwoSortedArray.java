@@ -21,6 +21,7 @@ public class MergeTwoSortedArray {
 
     static void merge(int[] arr1, int[] arr2, int n, int m){
         int[] arr3 = new int[n+m];
+
         int left = 0;
         int right = 0;
         int index = 0;
