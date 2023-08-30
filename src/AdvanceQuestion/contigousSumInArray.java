@@ -7,6 +7,8 @@ public class contigousSumInArray {
         int ans2 = subArraySum(arr);
         System.out.println(ans2);
     }
+
+    //time complexity :- O(n2)
     static int SubArraySum(int[] arr){
         int n = arr.length;
         int res = Integer.MIN_VALUE;
