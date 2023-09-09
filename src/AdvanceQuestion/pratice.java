@@ -6,7 +6,7 @@ import java.util.Map;
 public class pratice{
     public static void main(String[] args) {
         int[] arr = new int[]{-2, -3, 4, -1, -3};
-        int ans = solver(arr);
+        int ans = solver1(arr);
         System.out.println(ans);
     }
 
@@ -22,4 +22,17 @@ public class pratice{
         }
         return res;
     }
+    //O(n)
+    static int solver1(int[] arr){
+        int n = arr.length;
+        int maxsum = arr[0];
+        int currentsum = 0;
+
+        for (int i = 0; i < n; i++) {
+            currentsum = Math.max(0, currentsum) + arr[i];
+            maxsum = Math.max(maxsum, currentsum);
+        }
+        return maxsum;
+    }
+
 }
