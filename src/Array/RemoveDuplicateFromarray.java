@@ -13,6 +13,7 @@ public class RemoveDuplicateFromarray {
         arr.add(2);
         arr.add(44);
         arr.add(3);
+        arr.add(3);
 
         remove(arr, arr.size());
     }
