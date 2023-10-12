@@ -2,7 +2,7 @@ package Array;
 
 public class linearsearch {
     public static void main(String[] args) {
-        int arr[] = inputarray.input();
+        int[] arr = inputarray.input();
         System.out.println(linearsearch(arr,890));
     }
 

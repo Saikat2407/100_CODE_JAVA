@@ -40,6 +40,6 @@ public class linearsearchInRange {
         sc.close();
 
         System.out.println(Arrays.toString(arr));
-        System.out.println(rage(arr,1,size,12));
+        System.out.println(rage(arr,2,size,12));
     }
 }
