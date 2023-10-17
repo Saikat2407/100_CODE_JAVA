@@ -4,8 +4,8 @@ import java.util.HashSet;
 
 public class DisjointOfArray {
     public static void main (String[] args) {
-        int[] arr1 = {10, 51, 3, 43, 6};
-        int[] arr2 = {80, 71, 29, 2};
+        int[] arr1 ={1,3,4,5,2};
+        int[] arr2 ={2,4,3,1,7,5,15};
 
         if (disjoint(arr1, arr2))
             System.out.println("Yes");

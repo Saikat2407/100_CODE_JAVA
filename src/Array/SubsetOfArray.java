@@ -10,6 +10,19 @@ public class SubsetOfArray {
         }else System.out.println("No not a Subset");
     }
 
+//    private static boolean isSubset(int[] mainArray, int[] subsetArray) {
+//        for (int subelement: subsetArray
+//             ) {
+//            boolean found = false;
+//            for (int mainelement : mainArray
+//                 ) {
+//                if (subelement == mainelement) found = true; break;
+//            }
+//            if(!found) return false;
+//        }
+//        return true;
+//    }
+
     public static boolean isSubset(int[] mainArray, int[] subsetArray){
         for (int subsetElement: subsetArray) {
             boolean found = false;
@@ -23,6 +36,7 @@ public class SubsetOfArray {
         }
         return true;
     }
+
 
 
 }
